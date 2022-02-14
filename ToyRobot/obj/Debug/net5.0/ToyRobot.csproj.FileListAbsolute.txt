@@ -1,0 +1,16 @@
+C:\Personal\ProSource\ToyRobot\ToyRobot\bin\Debug\net5.0\ToyRobot.exe
+C:\Personal\ProSource\ToyRobot\ToyRobot\bin\Debug\net5.0\ToyRobot.deps.json
+C:\Personal\ProSource\ToyRobot\ToyRobot\bin\Debug\net5.0\ToyRobot.runtimeconfig.json
+C:\Personal\ProSource\ToyRobot\ToyRobot\bin\Debug\net5.0\ToyRobot.runtimeconfig.dev.json
+C:\Personal\ProSource\ToyRobot\ToyRobot\bin\Debug\net5.0\ToyRobot.dll
+C:\Personal\ProSource\ToyRobot\ToyRobot\bin\Debug\net5.0\ref\ToyRobot.dll
+C:\Personal\ProSource\ToyRobot\ToyRobot\bin\Debug\net5.0\ToyRobot.pdb
+C:\Personal\ProSource\ToyRobot\ToyRobot\obj\Debug\net5.0\ToyRobot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personal\ProSource\ToyRobot\ToyRobot\obj\Debug\net5.0\ToyRobot.AssemblyInfoInputs.cache
+C:\Personal\ProSource\ToyRobot\ToyRobot\obj\Debug\net5.0\ToyRobot.AssemblyInfo.cs
+C:\Personal\ProSource\ToyRobot\ToyRobot\obj\Debug\net5.0\ToyRobot.csproj.CoreCompileInputs.cache
+C:\Personal\ProSource\ToyRobot\ToyRobot\obj\Debug\net5.0\ToyRobot.dll
+C:\Personal\ProSource\ToyRobot\ToyRobot\obj\Debug\net5.0\ref\ToyRobot.dll
+C:\Personal\ProSource\ToyRobot\ToyRobot\obj\Debug\net5.0\ToyRobot.pdb
+C:\Personal\ProSource\ToyRobot\ToyRobot\obj\Debug\net5.0\ToyRobot.genruntimeconfig.cache
+C:\Personal\ProSource\ToyRobot\ToyRobot\obj\Debug\net5.0\ToyRobot.csproj.AssemblyReference.cache
