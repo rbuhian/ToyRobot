@@ -57,6 +57,6 @@ c)----------------
 
 Requirements:
 
-- Visual Studio 2019 and up
-- .NET framework 5.0
+- Visual Studio 2019 or higher
+- .NET framework 4.8
 - No 3rd party frameworks were used, so this program will compile and run if above requirements are fulfilled.

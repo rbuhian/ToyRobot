@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobot", "ToyRobot\ToyRobot.csproj", "{5E76759F-01E1-4605-8F42-E2ABE56D76C6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{73D43FB8-C519-42C9-BF37-F56262E45680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobotTests", "ToyRobotTests\ToyRobotTests.csproj", "{2B1A3E4B-399A-4032-B3DB-AFF2CA3AA2E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobot", "ConsoleApp1\ToyRobot.csproj", "{B8634AA0-90D6-4925-B497-7CEB5584EA75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +15,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5E76759F-01E1-4605-8F42-E2ABE56D76C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E76759F-01E1-4605-8F42-E2ABE56D76C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E76759F-01E1-4605-8F42-E2ABE56D76C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E76759F-01E1-4605-8F42-E2ABE56D76C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B1A3E4B-399A-4032-B3DB-AFF2CA3AA2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1A3E4B-399A-4032-B3DB-AFF2CA3AA2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1A3E4B-399A-4032-B3DB-AFF2CA3AA2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1A3E4B-399A-4032-B3DB-AFF2CA3AA2E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8634AA0-90D6-4925-B497-7CEB5584EA75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8634AA0-90D6-4925-B497-7CEB5584EA75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8634AA0-90D6-4925-B497-7CEB5584EA75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8634AA0-90D6-4925-B497-7CEB5584EA75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B1A3E4B-399A-4032-B3DB-AFF2CA3AA2E6} = {73D43FB8-C519-42C9-BF37-F56262E45680}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0679E95F-C926-4BA7-AE97-BE7560C63962}
