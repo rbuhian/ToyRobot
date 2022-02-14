@@ -174,6 +174,12 @@ namespace ToyRobot.Model
         }
         private string Report(string[] args)
         {
+            if (!IsTableInitialized())
+                return string.Format(OutputFormatting.Indent(2) + "Table not yet initialized.");
+
+            if (_location == null)
+                return string.Format(OutputFormatting.Indent(2) + "Robot is not yet on the table.");
+
             return ShowRobotLocationAndDirection();
         }
         private string Exit(string[] args)
