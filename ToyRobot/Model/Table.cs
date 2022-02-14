@@ -24,9 +24,6 @@
 
         public bool IsPositionValid(int x, int y)
         {
-            //Check if position is within the specified table size
-            //Can also do obstable checking here if needed.
-
             return (XValueIsValid(x) && YValueIsValid(y));
         }
 

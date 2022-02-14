@@ -56,7 +56,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ConsoleApp1\ToyRobot.csproj">
+    <ProjectReference Include="..\ToyRobot\ToyRobot.csproj">
       <Project>{b8634aa0-90d6-4925-b497-7ceb5584ea75}</Project>
       <Name>ToyRobot</Name>
     </ProjectReference>

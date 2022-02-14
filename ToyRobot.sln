@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{73D43FB8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobotTests", "ToyRobotTests\ToyRobotTests.csproj", "{2B1A3E4B-399A-4032-B3DB-AFF2CA3AA2E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobot", "ConsoleApp1\ToyRobot.csproj", "{B8634AA0-90D6-4925-B497-7CEB5584EA75}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobot", "ToyRobot\ToyRobot.csproj", "{B8634AA0-90D6-4925-B497-7CEB5584EA75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

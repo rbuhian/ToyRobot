@@ -16,7 +16,7 @@ namespace ToyRobot
             try
             {
                 robot.InitTable(5, 5);
-                
+
                 do
                 {
                     var consoleInput = ReadFromConsole();
@@ -26,7 +26,7 @@ namespace ToyRobot
                     string result = robot.Execute(cmd);
 
                     if (string.Equals(cmd.Name, "REPORT", StringComparison.OrdinalIgnoreCase))
-                    WriteToConsole(result);
+                        WriteToConsole(result);
 
                 } while (!String.Equals(cmd.Name, "Exit", StringComparison.OrdinalIgnoreCase));
             }

@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ToyRobot.Helper;
 
 namespace ToyRobot.Model
@@ -72,12 +70,15 @@ namespace ToyRobot.Model
                 if (!Enum.GetNames(typeof(Direction)).Any(x => x.ToLower() == args[2].ToLower()))
                     return string.Format(OutputFormatting.Indent(2) + "Invalid direction");
 
+                if (!_table.IsPositionValid(xPosition, yPosition))
+                    return string.Format(OutputFormatting.Indent(2) + "Invalid location");
+
                 _location = new Location(xPosition, yPosition);
                 _direction = GetDiretionValue(args[2]);
             }
             catch (Exception)
             {
-                string message = string.Format("Invalid argument.");
+                string message = string.Format("Invalid Argument");
                 throw new ArgumentException(message);
             }
 
